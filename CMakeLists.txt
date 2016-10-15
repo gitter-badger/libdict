@@ -24,4 +24,9 @@ include_directories(include)
 include_directories(src)
 
 add_library(dict STATIC ${LIBDICT_SOURCES})
+if(CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64" )
+    set_target_properties(dict PROPERTIES COMPILE_FLAGS "-fPIC")
+endif(CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64" )
 set_target_properties(dict PROPERTIES PREFIX "lib")
+
+
