@@ -1,5 +1,7 @@
 # libdict
 
+[![Join the chat at https://gitter.im/shiva/libdict](https://badges.gitter.im/shiva/libdict.svg)](https://gitter.im/shiva/libdict?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 libdict is a C library that provides the following data structures with efficient insert, lookup, and delete routines:
 
 * [height-balanced (AVL) tree](http://en.wikipedia.org/wiki/AVL_tree)
